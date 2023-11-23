@@ -34,8 +34,9 @@ partials/structure/stylesheet.html
 .hugo_build.lock
 
 # external
-./themes
-
+/themes
+themes/ananke
+/server
 
 /public/
 /resources/_gen/
