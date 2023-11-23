@@ -37,3 +37,8 @@ partials/structure/stylesheet.html
 ./themes
 
 
+/public/
+/resources/_gen/
+hugo.exe
+hugo.linux
+hugo.darwin
