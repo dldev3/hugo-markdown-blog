@@ -35,8 +35,7 @@ partials/structure/stylesheet.html
 
 # external
 /themes
-themes/ananke
-/server
+\themes\ananken
 
 /public/
 /resources/_gen/
