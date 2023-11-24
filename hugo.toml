@@ -5,6 +5,7 @@ title = 'DDev Blog'
 paginate = 2
 
 [params]
+ description = "The fastest blog"
  dateFormat="Jan 2, 2006"
 
 [taxonomies]
