@@ -121,7 +121,29 @@ a {
     color: var(--textSoft);
 }
 
+.singleHeadTexts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.singleHeadTitle {
+    font-size: 48px;
+}
+
 /* list end */
+
+
+/* single start */
+.singleHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+/* single end */
 
 
 
