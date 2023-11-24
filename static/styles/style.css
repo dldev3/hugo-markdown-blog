@@ -13,6 +13,8 @@
 body {
     background: var(--bg);
     color: var(--text);
+    font-family: 'Inconsolata', monospace;
+
 }
 
 a {
@@ -38,6 +40,9 @@ a {
     align-items: center;
     justify-content: space-between;
     height: 100px;
+    position: sticky;
+    top: 0;
+    background-color: var(--bg);
 }
 
 .links {
@@ -121,15 +126,6 @@ a {
     color: var(--textSoft);
 }
 
-.singleHeadTexts {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.singleHeadTitle {
-    font-size: 48px;
-}
 
 /* list end */
 
@@ -143,9 +139,92 @@ a {
 
 }
 
+.singleHeadTexts {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.singleHeadTitle {
+    font-size: 48px;
+}
+
+.singleHeadDesc {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.singleHeadDetail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.singleCategory {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--bgSoft);
+    color: var(--textSoft);
+    font-size: 14px;
+}
+
+.singleHeadImage {
+    flex: 1;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+.singleBottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.singleContent {
+    flex: 3;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.singleContent p,
+.singleContent h1,
+.singleContent h2,
+.singleContent h3 {
+    margin: 20px 0px;
+}
+
+.singleContent img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.singleRightBar {
+    flex: 1;
+}
+
 /* single end */
 
+/* rightbar start */
+.rightBar {
+    position: sticky;
+    top: 100px;
+}
 
+.rightBarImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rightBarImgHr {
+    display: none;
+}
+
+/* rightbar end */
 
 
 
@@ -173,6 +252,28 @@ a {
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    .singleHeadImage {
+        display: none;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+
+    .singleBottom {
+        flex-direction: column-reverse;
+    }
+
+    .rightBarImg {
+        display: none;
+    }
+
+    .rightBarImgHr {
+        display: block;
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -180,13 +281,14 @@ a {
         max-width: 640px;
     }
 
-    .logo {
-        font-size: 18px;
-    }
-
     .links {
         font-size: 14px;
     }
+
+    .listItemImage {
+        display: none;
+    }
+
 }
 
 @media (max-width: 640px) {

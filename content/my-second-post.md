@@ -5,8 +5,8 @@ draft = false
 description = "This is a description"
 image = "/images/2s.webp"
 imageBig = "/images/2b.webp"
-categories = ["tech", "sales"]
-authors = ["dev4"]
+categories = ["Tech", "Sales"]
+authors = ["Dev4"]
 +++
 
 Test content
