@@ -6,7 +6,7 @@ description = "This is a description"
 image = "/images/2s.webp"
 imageBig = "/images/2b.webp"
 categories = ["tech", "sales"]
-authors = ["dev"]
+authors = ["dev4"]
 +++
 
 Test content

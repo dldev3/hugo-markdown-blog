@@ -5,6 +5,6 @@ draft = false
 description = ""
 image = ""
 imageBig = ""
-categories = ["tech", "sales"]
+categories = ["tech", "sales","marketing"]
 authors = ["dev"]
 +++
